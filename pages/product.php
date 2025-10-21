@@ -39,7 +39,7 @@ if(isset($_GET['delete'])) {
         </div>
         <div class="card-body">
           <div class="d-flex justify-content-end p-2">
-            <a href="?page=tambah-product" class="btn btn-primary"><i class="bi bi-plus-circle"></i>Add</a>
+            <a href="?page=tambah-product" class="btn btn-outline-primary"><i class="bi bi-plus-circle"></i> Add</a>
           </div>
           <table class="table table-bordered">
             <tr>
