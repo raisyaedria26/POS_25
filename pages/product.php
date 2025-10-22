@@ -35,11 +35,12 @@ if(isset($_GET['delete'])) {
     <div class="col-sm-12">
       <div class="card">
         <div class="card-header">
-          <h3 class="card-title">Data Product</h3>
+          <h3 class="card-title">Data Products</h3>
         </div>
         <div class="card-body">
           <div class="d-flex justify-content-end p-2">
-            <a href="?page=tambah-product" class="btn btn-outline-primary"><i class="bi bi-plus-circle"></i> Add</a>
+            <a href="?page=tambah-product" class="btn btn-outline-primary"><i class="bi bi-plus-circle"></i> Add
+              Product</a>
           </div>
           <table class="table table-bordered">
             <tr>
@@ -62,7 +63,7 @@ if(isset($_GET['delete'])) {
                   <i class="bi bi-pencil"></i></a>
 
                 <a href="?page=product&delete=<?php echo $v['id'] ?>" class="btn btn-outline-warning btn-sm"
-                  onclick="return confirm('Apakah anda yakin menghapus?')">
+                  onclick="return confirm('Are u sure wanna delete it?')">
                   <i class="bi bi-trash"></i></a>
 
               </td>

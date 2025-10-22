@@ -51,8 +51,7 @@ if (isset($_GET['delete'])) {
                 <a class="btn btn-outline-success btn-sm" href="?page=tambah-user&edit=<?php echo $value['id'] ?>">
                   <i class="bi bi-pencil"></i>
                 </a>
-                <a class="btn btn-outline-warning btn-sm"
-                  onclick="return confirm('Apakah anda yakin akan menghapus data ini?')"
+                <a class="btn btn-outline-warning btn-sm" onclick="return confirm('Are u sure wanna delete it?')"
                   href="?page=user&delete=<?php echo $value['id'] ?>">
                   <i class="bi bi-trash"></i>
                 </a>
