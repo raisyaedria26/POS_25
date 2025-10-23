@@ -30,7 +30,7 @@ body {
 }
 
 .product-card .product-img img {
-  height: 120px;
+  height: 290px;
   object-fit: cover;
   display: flex;
   align-items: center;
